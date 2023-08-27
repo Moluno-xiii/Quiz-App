@@ -4,22 +4,24 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      (Items.map())
     </div>
   );
 }
+
+
+
+
+const Items = [{
+  question: 'How many days are in a year',
+  option1 : '365 days', 
+  option2 : '360 days', 
+  option3 : '355 1/4 days', 
+  option4 :'money' ,
+}]
+
+
+
+
 
 export default App;
