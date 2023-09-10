@@ -16,6 +16,7 @@ function App() {
         </div>
      ))}
      </div>
+
      );
 }
 
@@ -37,3 +38,36 @@ const Items = [{
 
 
 export default App;
+
+// import React from 'react';
+
+// function App() {
+//   const Items = [{
+//     question: 'How many days are in a year',
+//     options: {
+//       option1: '365 days', 
+//       option2: '360 days', 
+//       option3: '355 1/4 days', 
+//       option4: 'money',
+//     },
+//   }];
+
+//   return (
+//     <div className="App">
+//       {Items.map((item, i) => (
+//         <div className="container" key={i}>
+//           <div className="question-container">
+//             <h2>{item.question}</h2>
+//             {Object.keys(item.options).map((optionKey, optionIndex) => (
+//               <p className='click' key={optionKey}>
+//                 option {optionIndex + 1}: {item.options[optionKey]}
+//               </p>
+//             ))}
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default App;
